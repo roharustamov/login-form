@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/Signup form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box login" , id="loginForm">
+        <form action="#">
+          <h1>КИРҮҮ</h1>
+          <div class="input-box">
+            <input type="username" placeholder="КОЛДОНУУЧУ АТЫ" required />
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="ПАРОЛЬ" required />
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="forgot-link">
+            <a href="#">ПАРОЛДУ УНУТТУҢУЗБУ?</a>
+          </div>
+          <button type="submit" class="btn">КАТТАЛУУ</button>
+          <p>ЖЕ СОЦИАЛДЫК ТАРМАКТАР АРКЫЛУУ КИРИҢИЗ</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-box register">
+        <form action="#" , id="registerForm">
+          <h1>КАТТАЛУУ</h1>
+          <div class="input-box">
+            <input type="text" placeholder="КОЛДОНУУЧУ АТЫ" required />
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="input-box">
+            <input type="email" placeholder="ЭЛЕКТРОНДУК ПОЧТА" required />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="ПАРОЛЬ" required />
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <button type="submit" class="btn">КИРҮҮ</button>
+          <p>ЖЕ СОЦИАЛДЫК ТАРМАКТАР АРКЫЛУУ КАТТАЛЫҢЫЗ</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="toggle-box">
+        <div class="toggle-panel toggle-left">
+          <h1>КОШ КЕЛИҢИЗ!</h1>
+          <p>АККАУНТУҢУЗ ЖОКПУ?</p>
+          <button class="btn register-btn">КИРҮҮ</button>
+        </div>
+        <div class="toggle-panel toggle-right">
+          <h1>КАЙРА КОШ КЕЛИҢИЗ!</h1>
+          <p>АККАУНТУҢУЗ БАРБЫ?</p>
+          <button class="btn login-btn">КАТТАЛУУ</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
